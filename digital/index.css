@@ -1,0 +1,100 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.box {
+  display: grid;
+  grid-template-rows: 0.08fr 0.1fr 1fr;
+  height: 100vh;
+}
+.box1 {
+  background-color: rgb(2, 2, 41);
+  padding-left: 60px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  color: rgb(185, 165, 165);
+  display: grid;
+  grid-template-columns: 1fr 0.2fr 0.1fr 0.1fr 0.2fr 0.1fr;
+  grid-gap: 2rem;
+  height: 50px;
+}
+.box2 {
+  background-color: whitesmoke;
+  display: grid;
+  grid-template-columns: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr;
+  grid-gap: 2rem;
+  height: 50px;
+  padding-top: 10px;
+  padding-left: 60px;
+}
+
+.log {
+  border: none;
+  margin-left: 20px;
+}
+.sign {
+  border: none;
+  background-color: darkblue;
+  color: white;
+  width: 70px;
+  height: 30px;
+  border-radius: 5px;
+  margin-left: 70px;
+}
+.box3 {
+  background-color: darkblue;
+}
+
+.rob1 {
+  color: white;
+  font-size: 40px;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: 20px;
+}
+.rob2 {
+  color: white;
+  font-size: 40px;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+.rob3 {
+  color: white;
+  font-size: 40px;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+p {
+  color: white;
+  margin-top: 5px;
+  margin-right: 400px;
+  margin-left: 400px;
+}
+.but {
+  color: white;
+  background-color: rgb(2, 2, 41);
+  border: none;
+  height: 50px;
+  width: 180px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 380px;
+}
+.buttt {
+  background-color: white;
+  border: none;
+  height: 50px;
+  width: 220px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+.butt {
+  background-color: white;
+  border: none;
+  height: 50px;
+  width: 220px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
